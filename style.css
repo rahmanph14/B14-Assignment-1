@@ -6,7 +6,7 @@
 }
 body {
   background-color: rgb(255, 221, 159);
-  max-width: 1551px;
+  /* max-width: 1551px; */
   margin: 0 auto;
 }
 .container {
@@ -28,9 +28,9 @@ body {
 .common-btn:hover {
   background-color: #1640b3;
 }
-
+/* ==========header-(nav)-section========== */
 header {
-  background-color: #ff9a9a;
+  /* background-color: #ff9a9a; */
   height: 98px;
   display: flex;
   justify-content: space-between;
@@ -55,4 +55,56 @@ nav ul li a:hover {
   color: #1640b3;
 }
 
-/* Hero-section-start*/
+/*==========Banner-section==========*/
+#banner {
+  height: 786px;
+  background-image: url(./images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* overlay effect */
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.banner-content {
+  z-index: 1;
+  width: 830px;
+  height: 786px;
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#banner .banner-content h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+#banner .banner-content .banner-content-description p{
+  font-size: 22px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+#banner .banner-content .common-btn {
+  background-color: #1d4ed8;
+  padding: 20px 60px;
+  border-radius: 15px;
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#banner .banner-content .common-btn:hover {
+ background-color: #1640b3;
+}
+

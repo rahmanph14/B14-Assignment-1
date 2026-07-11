@@ -224,7 +224,7 @@ nav ul li a:hover {
 }
 
 /* middle (featured) plan */
-/* .pricing-card-parent div:nth-child(2) {
+.pricing-card-parent div:nth-child(2) {
   background-color: #0d1b2a;
   color: #ffffff;
 }
@@ -250,4 +250,4 @@ nav ul li a:hover {
   color: #ffffff;
   border: 1px solid #1640b3 ;
   transition: 0.3s;
-} */
+}
